@@ -15,6 +15,13 @@ Per il percorso completo "da zero a prima giacenza risolta" vedi la guida rapida
 composer require vettore/vettore-php
 ```
 
+Finche' il pacchetto non e' pubblicato su Packagist, si installa dal repository Git:
+
+```bash
+composer config repositories.vettore vcs https://github.com/uesse1912/vettore-php
+composer require vettore/vettore-php:dev-main
+```
+
 ## Primi passi
 
 ```php
