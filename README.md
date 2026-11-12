@@ -7,7 +7,7 @@ Client PHP ufficiale per l'API [Vettore](https://api.vettoreapi.com/docs): track
 - Retry automatico e limitato su 429/5xx/errori di rete, con backoff e rispetto di `Retry-After`.
 - Verifica della firma dei webhook identica a quella del server, rotazione del segreto compresa.
 
-Per il percorso completo "da zero a prima giacenza risolta" vedi [`docs/quickstart.md`](../../docs/quickstart.md); il contratto e' l'OpenAPI servita su `https://api.vettoreapi.com/openapi.yaml`.
+Per il percorso completo "da zero a prima giacenza risolta" vedi la guida rapida su [api.vettoreapi.com/docs](https://api.vettoreapi.com/docs); il contratto e' l'OpenAPI servita su `https://api.vettoreapi.com/openapi.yaml`. Sorgente: [github.com/uesse1912/vettore-php](https://github.com/uesse1912/vettore-php).
 
 ## Installazione
 
